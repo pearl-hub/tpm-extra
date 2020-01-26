@@ -1,7 +1,5 @@
 
 post_install() {
-    pearl emerge ${PEARL_PKGREPONAME}/tpm
-
     link tmux "$PEARL_PKGDIR/tpm-extra.conf"
 
     return 0
